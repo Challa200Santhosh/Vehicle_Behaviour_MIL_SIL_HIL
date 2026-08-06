@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk 23.2</creator>
+	<majorversion type="key">23</majorversion>
+	<minorversion type="key">2</minorversion>
+	<maintenanceversion type="key">0</maintenanceversion>
+	<specialbuildversion type="key"/>
+	<releasename type="key">2023-B</releasename>
+	<experiment>
+		<Creator type="key">ControlDesk</Creator>
+		<MigrationHistory type="key"/>
+		<Name type="key">Experiment_001.CDE</Name>
+		<DisplayName type="key">Experiment_001</DisplayName>
+		<Path type="key">.\Experiment_001</Path>
+		<Flags type="key">4096</Flags>
+		<Type type="key">2</Type>
+		<UniqueID type="key">567721270</UniqueID>
+		<EntityID type="key">{7D7E8BA7-19B8-473F-8186-EAA799FCEBEE}</EntityID>
+		<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		<item>
+			<Component type="key">VariablesManagement</Component>
+			<Name type="key">CalculatedVariables.vdp</Name>
+			<DisplayName type="key">CalculatedVariables.vdp</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">18692</Flags>
+			<Type type="key">4</Type>
+			<UniqueID type="key">121728854</UniqueID>
+			<EntityID type="key">{210FA8F7-5451-4BF1-9A12-A17920725351}</EntityID>
+			<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		</item>
+		<item>
+			<Targets type="key">experiment</Targets>
+			<Name type="key">Experiment_001</Name>
+			<DisplayName type="key">Experiment_001</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">378417855</UniqueID>
+			<EntityID type="key">{67C8FA46-AC61-4E89-A143-7FCBE159C2D2}</EntityID>
+			<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			<item>
+				<Targets type="key">instrumentation</Targets>
+				<Name type="key">Experiment Layouts</Name>
+				<DisplayName type="key">Experiment Layouts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">401656649</UniqueID>
+				<EntityID type="key">{156CCC98-0F0D-4D7C-A044-21B37B79835C}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+				<item>
+					<Name type="key">Experiment_001.cdc</Name>
+					<DisplayName type="key">Experiment_001.cdc</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">4100</Flags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">755864928</UniqueID>
+					<EntityID type="key">{88E9B963-A5F4-4C4D-AD29-F9817817A516}</EntityID>
+					<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Layout1.lay</Name>
+					<DisplayName type="key">Layout1.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">494903706</UniqueID>
+					<EntityID type="key">{2BA3103F-ABDC-44F8-B443-AD9E160F1CEB}</EntityID>
+					<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">devicemanagement,platformmanagement,diagnosticsmanagement</Targets>
+				<Name type="key">Hardware Configurations</Name>
+				<DisplayName type="key">Hardware Configurations</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">883282967</UniqueID>
+				<EntityID type="key">{28087B85-7603-45D8-B4AC-9D7BE8ECD1C8}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+				<item>
+					<Component type="key">PlatformManagement</Component>
+					<Targets type="key">Device::da3e170d-917e-46f1-af7b-de71afe9a63e</Targets>
+					<RestoreInfopmdn type="key">Platform</RestoreInfopmdn>
+					<RestoreInfopmid type="key">da3e170d-917e-46f1-af7b-de71afe9a63e</RestoreInfopmid>
+					<Name type="key">da3e170d-917e-46f1-af7b-de71afe9a63e</Name>
+					<DisplayName type="key">Platform [SCALEXIO Platform, assigned to 'SCALEXIO_J']</DisplayName>
+					<Flags type="key">128</Flags>
+					<ExtendedFlags type="key">3072</ExtendedFlags>
+					<Type type="key">6</Type>
+					<UniqueID type="key">294871980</UniqueID>
+					<EntityID type="key">{564C6DA2-4876-4689-A673-5E266D966AF3}</EntityID>
+					<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">Application_001.sdf</Name>
+						<DisplayName type="key">Application_001.sdf</DisplayName>
+						<Path type="key">.\Variable Descriptions\Application_001.sdf</Path>
+						<Flags type="key">18704</Flags>
+						<Type type="key">7</Type>
+						<UniqueID type="key">524003172</UniqueID>
+						<EntityID type="key">{B574CD8C-23DA-4AAA-B9EE-5DCD3F7AF821}</EntityID>
+						<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">Application_001.vdp</Name>
+							<DisplayName type="key">Application_001.vdp</DisplayName>
+							<Path type="key">.\Variable Descriptions\Application_001.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">83625443</UniqueID>
+							<EntityID type="key">{856E95A8-5639-4EDF-81BF-162E453424B8}</EntityID>
+							<ItemInfoDate type="key">2026-08-05 16:01:29</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">.metadata</Name>
+							<DisplayName type="key">.metadata</DisplayName>
+							<Path type="key">.\Variable Descriptions\Application_001.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">65335889</UniqueID>
+							<EntityID type="key">{1890C0D0-597D-42AD-AB55-C6393D4580DD}</EntityID>
+							<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">Vehicle_Behavior_Modeling2.map</Name>
+							<DisplayName type="key">Vehicle_Behavior_Modeling2.map</DisplayName>
+							<Path type="key">.\Variable Descriptions\Application_001.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">950076607</UniqueID>
+							<EntityID type="key">{3BA73630-DFC6-4778-8049-0E0F4C50975A}</EntityID>
+							<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">Vehicle_Behavior_Modeling2.expswcfg</Name>
+							<DisplayName type="key">Vehicle_Behavior_Modeling2.expswcfg</DisplayName>
+							<Path type="key">.\Variable Descriptions\Application_001.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">874686193</UniqueID>
+							<EntityID type="key">{EA1D486F-EC63-4651-A30A-6629E59773B4}</EntityID>
+							<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">Vehicle_Behavior_Modeling2.trc</Name>
+							<DisplayName type="key">Vehicle_Behavior_Modeling2.trc</DisplayName>
+							<Path type="key">.\Variable Descriptions\Application_001.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">490195091</UniqueID>
+							<EntityID type="key">{31219640-E701-4B97-A4DA-33384F93C459}</EntityID>
+							<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">Application_001.dsbuildinfo</Name>
+							<DisplayName type="key">Application_001.dsbuildinfo</DisplayName>
+							<Path type="key">.\Variable Descriptions\Application_001.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">421589667</UniqueID>
+							<EntityID type="key">{D97BBBA1-C57F-4A92-A21B-1B57A3692C81}</EntityID>
+							<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">VariablesManagement</Component>
+							<Name type="key">Application_001.rta</Name>
+							<DisplayName type="key">Application_001.rta</DisplayName>
+							<Path type="key">.\Variable Descriptions\Application_001.sdf</Path>
+							<Flags type="key">18692</Flags>
+							<Type type="key">4</Type>
+							<UniqueID type="key">30938793</UniqueID>
+							<EntityID type="key">{53AB785E-2962-48A9-8F1D-A1BD02478DF4}</EntityID>
+							<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+							<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						</item>
+						<item>
+							<Component type="key">DataSetManager</Component>
+							<Name type="key">Data Sets</Name>
+							<DisplayName type="key">Data Sets</DisplayName>
+							<Path type="key">.\Data Sets</Path>
+							<Flags type="key">65798</Flags>
+							<ExtendedFlags type="key">132</ExtendedFlags>
+							<Type type="key">3</Type>
+							<UniqueID type="key">835656462</UniqueID>
+							<EntityID type="key">{CB7A0032-DBAA-4A50-9DB9-7C8C0711C6EA}</EntityID>
+							<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+							<ItemInfoDescr type="key"/>
+							<ItemInfoAddInfoDb type="key"/>
+							<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+						</item>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">variablesmanagement</Targets>
+				<Name type="key">Variable Descriptions</Name>
+				<DisplayName type="key">Variable Descriptions</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">708854953</UniqueID>
+				<EntityID type="key">{626B18A3-F825-4E45-A6A1-246DF86F5193}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager</Targets>
+				<Name type="key">Data Sets</Name>
+				<DisplayName type="key">Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">364571218</UniqueID>
+				<EntityID type="key">{82D36259-B388-4746-8366-98D90A4C14B0}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">mappings</Targets>
+				<Name type="key">Mappings</Name>
+				<DisplayName type="key">Mappings</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">1038318886</UniqueID>
+				<EntityID type="key">{0D7DB985-D017-45E1-8FE6-DD504A2252BB}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">.metadata</Name>
+					<DisplayName type="key">.metadata</DisplayName>
+					<Path type="key">.\Mappings</Path>
+					<Flags type="key">18692</Flags>
+					<Type type="key">4</Type>
+					<UniqueID type="key">794758416</UniqueID>
+					<EntityID type="key">{43C00724-BC78-4953-ACC2-BD466AD6B720}</EntityID>
+					<ItemInfoDate type="key">2026-08-05 16:01:29</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">measuredatamanagement</Targets>
+				<Name type="key">Measurement Data</Name>
+				<DisplayName type="key">Measurement Data</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">999659450</UniqueID>
+				<EntityID type="key">{8BB357F9-AE62-4B6F-A91B-9E0CC6670DC0}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">variablefilters,.vfex</Targets>
+				<Docs type="key">.vfex</Docs>
+				<Name type="key">Variable Filters</Name>
+				<DisplayName type="key">Variable Filters</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">506154388</UniqueID>
+				<EntityID type="key">{63457871-014F-4D4F-BE34-900AD0FF25ED}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.vfex</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">labellists,.lab</Targets>
+				<Docs type="key">.lab,.txt</Docs>
+				<Name type="key">Label Lists</Name>
+				<DisplayName type="key">Label Lists</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">794982164</UniqueID>
+				<EntityID type="key">{1CA989F4-0E02-49C4-87A9-FF4890187C4C}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.lab,.txt</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">diagnosticsmanagement_reports,.rtf,.pdf,.html,.xml,.txt,.csv</Targets>
+				<Docs type="key">.rtf,.pdf,.html,.txt,.csv</Docs>
+				<Name type="key">Reports</Name>
+				<DisplayName type="key">Reports</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">431028256</UniqueID>
+				<EntityID type="key">{51AC9D26-696E-4900-BBA1-F5B1846EE65B}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.rtf,.pdf,.html,.txt,.csv</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">pythonscriptcomponent</Targets>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<ExtendedFlags type="key">4224</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">930464358</UniqueID>
+				<EntityID type="key">{E9189DEB-5768-41F4-9A80-3AE7E48DBB47}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Generators</Name>
+				<DisplayName type="key">Signal Generators</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">561149204</UniqueID>
+				<EntityID type="key">{21717972-F570-4638-A8A8-543D1370AD9E}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">busnavigator,.xml</Targets>
+				<Name type="key">BusNavigator</Name>
+				<DisplayName type="key">BusNavigator</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">260</Flags>
+				<ExtendedFlags type="key">256</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">300763603</UniqueID>
+				<EntityID type="key">{A39BA019-3483-4465-A486-353FE7034807}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+				<item>
+					<Component type="key">BusNavigator</Component>
+					<Name type="key">Application_001.sdf</Name>
+					<DisplayName type="key">Application_001.sdf</DisplayName>
+					<Path type="key">.\BusNavigator</Path>
+					<Flags type="key">16644</Flags>
+					<Type type="key">3</Type>
+					<UniqueID type="key">933021679</UniqueID>
+					<EntityID type="key">{53CA17E9-363B-44B7-9AC2-589BEB38A679}</EntityID>
+					<ItemInfoDate type="key">2026-08-05 16:01:29</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+					<item>
+						<Component type="key">BusNavigator</Component>
+						<Name type="key">BusConfiguration.xml</Name>
+						<DisplayName type="key">BusConfiguration.xml</DisplayName>
+						<Path type="key">.\BusNavigator\Application_001.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">391705635</UniqueID>
+						<EntityID type="key">{9518AF09-E618-46C7-85B7-7D8F86DA6099}</EntityID>
+						<ItemInfoDate type="key">2026-08-05 16:01:29</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">xilapieesport</Targets>
+				<Name type="key">XIL API EESPorts</Name>
+				<DisplayName type="key">XIL API EESPorts</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">431293968</UniqueID>
+				<EntityID type="key">{82E04D63-3185-44B6-9E36-9FB5D7B26727}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:27</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">AutomationCustomData.json</Name>
+			<DisplayName type="key">AutomationCustomData.json</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">4</Type>
+			<UniqueID type="key">729336846</UniqueID>
+			<EntityID type="key">{3D5E17EC-AF4B-4F68-A64F-80ED26B34FC7}</EntityID>
+			<ItemInfoDate type="key">2026-08-05 16:01:28</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<ExtendedFlags type="key">4</ExtendedFlags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">162500583</UniqueID>
+			<EntityID type="key">{6C107AC2-E8C8-4659-A57C-A5DD87703676}</EntityID>
+			<ItemInfoDate type="key">2026-08-05 16:01:29</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			<item>
+				<Name type="key">Experiment.events</Name>
+				<DisplayName type="key">Experiment.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">394231255</UniqueID>
+				<EntityID type="key">{A8AC7617-1DA1-44F7-A7F5-61F6D8EF5DE5}</EntityID>
+				<ItemInfoDate type="key">2026-08-05 16:01:29</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">MURTI</ItemInfoAuthor>
+			</item>
+		</item>
+	</experiment>
+	<ProjectExperiment/>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<AutomaticDownload/>
+	</DataSetManager>
+	<PlatformManagement>
+		<SimulationTimeGroupSupported type="key">-1</SimulationTimeGroupSupported>
+		<DeviceFactory>
+			<Device>
+				<DeviceName type="key">da3e170d-917e-46f1-af7b-de71afe9a63e</DeviceName>
+				<DisplayName type="key">Platform</DisplayName>
+				<DeviceType type="key">240</DeviceType>
+				<applications/>
+				<AssignmentConfiguration>
+					<AssignmentInfo>
+						<AliasName type="key"/>
+						<BoardName type="key"/>
+						<ConnectionType type="key">1</ConnectionType>
+						<MACAddress type="key"/>
+						<Mode type="key">1</Mode>
+						<Children type="key">1</Children>
+						<NetClient type="key"/>
+						<PlatformType type="key">22</PlatformType>
+						<PortAddress type="key">0</PortAddress>
+						<ProcessorName type="key"/>
+						<SerialNumber type="key"/>
+						<TopologyCheck type="key">0</TopologyCheck>
+						<AssignmentProperties>
+							<AssignmentProperty>
+								<Name type="key">PlatformType</Name>
+								<Value type="key">22</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">Mode</Name>
+								<Value type="key">1</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">ConnectionType</Name>
+								<Value type="key">1</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">Children</Name>
+								<Value type="key">1</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">BoardName</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">MACAddress</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">NetClient</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">PortAddress</Name>
+								<Value type="key">0</Value>
+								<Type type="key">System.Int32</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">SerialNumber</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">ProcessorName</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">TopologyCheck</Name>
+								<Value type="key">False</Value>
+								<Type type="key">System.Boolean</Type>
+							</AssignmentProperty>
+							<AssignmentProperty>
+								<Name type="key">AliasName</Name>
+								<Value type="key"/>
+								<Type type="key">System.String</Type>
+							</AssignmentProperty>
+						</AssignmentProperties>
+						<AssignmentInfo>
+							<AliasName type="key"/>
+							<BoardName type="key"/>
+							<ConnectionType type="key">1</ConnectionType>
+							<MACAddress type="key"/>
+							<Mode type="key">1</Mode>
+							<Children type="key">0</Children>
+							<NetClient type="key">192.168.140.10</NetClient>
+							<PlatformType type="key">22</PlatformType>
+							<PortAddress type="key">0</PortAddress>
+							<ProcessorName type="key"/>
+							<SerialNumber type="key">1041185</SerialNumber>
+							<TopologyCheck type="key">0</TopologyCheck>
+							<AssignmentProperties>
+								<AssignmentProperty>
+									<Name type="key">PlatformType</Name>
+									<Value type="key">22</Value>
+									<Type type="key">System.Int32</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">Mode</Name>
+									<Value type="key">1</Value>
+									<Type type="key">System.Int32</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">ConnectionType</Name>
+									<Value type="key">1</Value>
+									<Type type="key">System.Int32</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">Children</Name>
+									<Value type="key">0</Value>
+									<Type type="key">System.Int32</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">BoardName</Name>
+									<Value type="key"/>
+									<Type type="key">System.String</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">MACAddress</Name>
+									<Value type="key"/>
+									<Type type="key">System.String</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">NetClient</Name>
+									<Value type="key">192.168.140.10</Value>
+									<Type type="key">System.String</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">PortAddress</Name>
+									<Value type="key">0</Value>
+									<Type type="key">System.Int32</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">SerialNumber</Name>
+									<Value type="key">1041185</Value>
+									<Type type="key">System.String</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">ProcessorName</Name>
+									<Value type="key"/>
+									<Type type="key">System.String</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">TopologyCheck</Name>
+									<Value type="key">False</Value>
+									<Type type="key">System.Boolean</Type>
+								</AssignmentProperty>
+								<AssignmentProperty>
+									<Name type="key">AliasName</Name>
+									<Value type="key"/>
+									<Type type="key">System.String</Type>
+								</AssignmentProperty>
+							</AssignmentProperties>
+						</AssignmentInfo>
+					</AssignmentInfo>
+				</AssignmentConfiguration>
+				<GeneralSettings>
+					<StartOnlineCalibrationBehavior type="key">5</StartOnlineCalibrationBehavior>
+					<DeviceEnableResynchonisation type="key">1</DeviceEnableResynchonisation>
+					<MeasurementService type="key">1</MeasurementService>
+					<ResumeOnlineCalibrationBehaviour type="key">5</ResumeOnlineCalibrationBehaviour>
+					<DisplayStatusInformation type="key">-1</DisplayStatusInformation>
+					<DisplayAutomaticReconnectBehavior type="key">1</DisplayAutomaticReconnectBehavior>
+					<EnablePlatform type="key">1</EnablePlatform>
+					<StartRTA type="key">1</StartRTA>
+					<EnforceStartingRTA type="key">1</EnforceStartingRTA>
+					<IgnoreSmartHardwareScanResult type="key">0</IgnoreSmartHardwareScanResult>
+				</GeneralSettings>
+				<SubstituteFactory/>
+			</Device>
+		</DeviceFactory>
+	</PlatformManagement>
+	<DiagnosticsManagement/>
+	<Instrumentation Version="1"/>
+	<VariablesManagement>
+		<Favorites>
+			<Labels/>
+			<Favorite>
+				<VariableName type="key">In1</VariableName>
+				<VariableUniqueName type="key">Model Root/CarEngineSpeed/In1</VariableUniqueName>
+				<VariableDescriptionName type="key">Vehicle_Behavior_Modeling2.trc</VariableDescriptionName>
+				<PlatformId type="key">da3e170d-917e-46f1-af7b-de71afe9a63e</PlatformId>
+				<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+			</Favorite>
+		</Favorites>
+	</VariablesManagement>
+	<MeasureDataManagement>
+		<TriggerRules>
+			<Version type="key">2</Version>
+		</TriggerRules>
+		<BookmarkTypes>
+			<BookmarkType>
+				<TypeID type="key">1</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">2</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">3</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">5</TypeID>
+				<RecordingActive type="key">0</RecordingActive>
+				<VisualizationActive type="key">0</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">6</TypeID>
+				<RecordingActive type="key">0</RecordingActive>
+				<VisualizationActive type="key">0</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">8</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">9</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">12</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">13</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">14</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+			<BookmarkType>
+				<TypeID type="key">15</TypeID>
+				<RecordingActive type="key">1</RecordingActive>
+				<VisualizationActive type="key">1</VisualizationActive>
+			</BookmarkType>
+		</BookmarkTypes>
+		<ProjectExperimentSettings>
+			<ShowMeasurementLinks type="key">0</ShowMeasurementLinks>
+		</ProjectExperimentSettings>
+	</MeasureDataManagement>
+	<MeasurementConfiguration>
+		<NextUniqueKey type="key">4</NextUniqueKey>
+		<SortedColumn type="key">4</SortedColumn>
+		<SortAscending type="key">-1</SortAscending>
+		<SignalList/>
+		<Platforms>
+			<Platform>
+				<Name type="key">da3e170d-917e-46f1-af7b-de71afe9a63e</Name>
+				<FilteredRastersView type="key">1</FilteredRastersView>
+				<UseDefaultRasterForParameters type="key">0</UseDefaultRasterForParameters>
+				<DefaultRaster type="key">Periodic Task 1</DefaultRaster>
+				<Rasters>
+					<PlatformTriggered>
+						<Name type="key">Periodic Task 1</Name>
+						<AutoRepeatEnabled type="key">1</AutoRepeatEnabled>
+						<AutoRepeatBehavior type="key">1</AutoRepeatBehavior>
+						<MultiCaptureHistoryEnabled type="key">0</MultiCaptureHistoryEnabled>
+						<DownsamplingFactor type="key">1</DownsamplingFactor>
+						<StartTrigger type="key">2</StartTrigger>
+						<StopTrigger type="key">3</StopTrigger>
+					</PlatformTriggered>
+				</Rasters>
+				<EnabledHardwarePollingRasters/>
+				<PlatformTriggers>
+					<PlatformTrigger>
+						<UniqueKey type="key">2</UniqueKey>
+						<Name type="key">Platform Trigger 1</Name>
+						<Condition type="key"/>
+						<Delay type="key">0</Delay>
+						<Enabled type="key">0</Enabled>
+						<Timeout type="key">0</Timeout>
+						<TimeoutEnabled type="key">0</TimeoutEnabled>
+						<VariableMappings>
+							<Platform type="key"/>
+						</VariableMappings>
+					</PlatformTrigger>
+				</PlatformTriggers>
+			</Platform>
+			<Platform>
+				<Name type="key">__Calculated</Name>
+				<FilteredRastersView type="key">1</FilteredRastersView>
+				<UseDefaultRasterForParameters type="key">0</UseDefaultRasterForParameters>
+				<Rasters>
+					<Raster>
+						<Name type="key">Merged</Name>
+						<MinimumSamplingPeriod type="key">0.001</MinimumSamplingPeriod>
+					</Raster>
+				</Rasters>
+				<EnabledHardwarePollingRasters/>
+				<PlatformTriggers/>
+			</Platform>
+		</Platforms>
+		<DurationTriggers>
+			<DurationTrigger>
+				<UniqueKey type="key">3</UniqueKey>
+				<Name type="key">Duration Trigger 1</Name>
+				<Delay type="key">0</Delay>
+				<Duration type="key">1</Duration>
+				<Enabled type="key">0</Enabled>
+			</DurationTrigger>
+		</DurationTriggers>
+		<SampleCountTriggers/>
+		<Acquisition>
+			<MeasurementBufferSize type="key">60</MeasurementBufferSize>
+			<BufferOverflowWarningEnabled type="key">0</BufferOverflowWarningEnabled>
+			<BufferOverflowWarningTime type="key">10</BufferOverflowWarningTime>
+			<SaveMeasurementBuffer>
+				<AddToExperimentEnabled type="key">-1</AddToExperimentEnabled>
+				<AutomaticSaveDialogEnabled type="key">0</AutomaticSaveDialogEnabled>
+				<AutomaticExportEnabled type="key">0</AutomaticExportEnabled>
+				<AutomaticExportFileNamePrefix type="key">bufexp_</AutomaticExportFileNamePrefix>
+				<AutomaticExportFileType type="key">ASAM MDF 4.1 Files (*.mf4)</AutomaticExportFileType>
+				<AutomaticExportFolder type="key"/>
+				<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
+				<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
+				<AutomaticNamingStartIndex type="key">1</AutomaticNamingStartIndex>
+				<Description type="key"/>
+				<FileNamePrefix type="key">buf_</FileNamePrefix>
+				<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
+				<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
+				<MeasurementTimestampsEnabled type="key">0</MeasurementTimestampsEnabled>
+			</SaveMeasurementBuffer>
+			<SaveDisplayedData>
+				<AddToExperimentEnabled type="key">-1</AddToExperimentEnabled>
+				<AutomaticSaveDialogEnabled type="key">0</AutomaticSaveDialogEnabled>
+				<AutomaticExportEnabled type="key">0</AutomaticExportEnabled>
+				<AutomaticExportFileNamePrefix type="key">sddexp_</AutomaticExportFileNamePrefix>
+				<AutomaticExportFileType type="key">ASAM MDF 4.1 Files (*.mf4)</AutomaticExportFileType>
+				<AutomaticExportFolder type="key"/>
+				<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
+				<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
+				<AutomaticNamingStartIndex type="key">1</AutomaticNamingStartIndex>
+				<Description type="key"/>
+				<FileNamePrefix type="key">sdd_</FileNamePrefix>
+				<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
+				<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
+				<MeasurementTimestampsEnabled type="key">0</MeasurementTimestampsEnabled>
+			</SaveDisplayedData>
+			<SaveFlightRecorderData>
+				<AddToExperimentEnabled type="key">-1</AddToExperimentEnabled>
+				<AutomaticSaveDialogEnabled type="key">0</AutomaticSaveDialogEnabled>
+				<AutomaticExportEnabled type="key">0</AutomaticExportEnabled>
+				<AutomaticExportFileNamePrefix type="key">flightrecexp_</AutomaticExportFileNamePrefix>
+				<AutomaticExportFileType type="key">ASAM MDF 4.1 Files (*.mf4)</AutomaticExportFileType>
+				<AutomaticExportFolder type="key"/>
+				<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
+				<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
+				<AutomaticNamingStartIndex type="key">1</AutomaticNamingStartIndex>
+				<Description type="key"/>
+				<FileNamePrefix type="key">flightrec_</FileNamePrefix>
+				<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
+				<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
+			</SaveFlightRecorderData>
+		</Acquisition>
+		<Recorders>
+			<Recorder>
+				<Name type="key">Recorder 1</Name>
+				<UniqueKey type="key">1</UniqueKey>
+				<AutomaticSignalConfigurationEnabled type="key">-1</AutomaticSignalConfigurationEnabled>
+				<WriteToFileEnabled type="key">-1</WriteToFileEnabled>
+				<MeasurementTimestampsEnabled type="key">0</MeasurementTimestampsEnabled>
+				<StartAudioSignalEnabled type="key">0</StartAudioSignalEnabled>
+				<StopAudioSignalEnabled type="key">0</StopAudioSignalEnabled>
+				<Active type="key">-1</Active>
+				<StartCondition>
+					<Enabled type="key">0</Enabled>
+					<RecordingCycleCount type="key">1</RecordingCycleCount>
+					<SelectedTriggerRule type="key"/>
+					<TriggerDelay type="key">0</TriggerDelay>
+				</StartCondition>
+				<StopCondition>
+					<RecordingStopWarningEnabled type="key">0</RecordingStopWarningEnabled>
+					<RecordingStopWarningTime type="key">60</RecordingStopWarningTime>
+					<SelectedTriggerRule type="key"/>
+					<Type type="key">0</Type>
+					<TimeLimit type="key">3600</TimeLimit>
+					<TriggerDelay type="key">0</TriggerDelay>
+				</StopCondition>
+				<StorageInformation>
+					<AddToExperimentEnabled type="key">-1</AddToExperimentEnabled>
+					<AutomaticSaveDialogEnabled type="key">0</AutomaticSaveDialogEnabled>
+					<AutomaticExportEnabled type="key">0</AutomaticExportEnabled>
+					<AutomaticExportFileNamePrefix type="key">exp1_</AutomaticExportFileNamePrefix>
+					<AutomaticExportFileType type="key">ASAM MDF 4.1 Files (*.mf4)</AutomaticExportFileType>
+					<AutomaticExportFolder type="key"/>
+					<AutomaticNamingEnabled type="key">-1</AutomaticNamingEnabled>
+					<AutomaticNamingMinimunDigits type="key">3</AutomaticNamingMinimunDigits>
+					<AutomaticNamingStartIndex type="key">1</AutomaticNamingStartIndex>
+					<Description type="key"/>
+					<FileNamePrefix type="key">rec1_</FileNamePrefix>
+					<OpenInMeasurementDataPoolEnabled type="key">0</OpenInMeasurementDataPoolEnabled>
+					<RecordingFileType type="key">ASAM MDF 4.1 Files (*.mf4)</RecordingFileType>
+				</StorageInformation>
+				<SignalList/>
+			</Recorder>
+		</Recorders>
+	</MeasurementConfiguration>
+	<BusNavigator/>
+	<SignalEditor/>
+	<XILAPIEESPort>
+		<XILAPIEESPort>
+			<EESPorts type="key">&lt;EESPorts /&gt;</EESPorts>
+		</XILAPIEESPort>
+	</XILAPIEESPort>
+	<PythonScriptComponent/>
+</Root>

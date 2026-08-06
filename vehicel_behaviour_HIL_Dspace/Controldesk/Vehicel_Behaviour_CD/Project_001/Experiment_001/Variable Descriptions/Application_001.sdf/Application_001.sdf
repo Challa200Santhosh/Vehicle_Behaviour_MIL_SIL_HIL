@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=Application_001.rta
+RTP=1
+
+[1]
+ID=e02f92d9-6950-49b4-9963-b4d0023f2037
+Type=DSRTPC
+ServiceID=1
+TraceFile=Vehicle_Behavior_Modeling2.trc
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VariableDescriptionMetaData SchemaVersion="1">
+  <SerializedFileName>Application_001.vdp</SerializedFileName>
+  <IsActive>true</IsActive>
+  <FileName>Application_001.sdf</FileName>
+  <VariableDescriptionSourcePathAndFileName>..\..\..\Configurationdesk\Vehicel_behaviour_model\Application_001\Build Results\Application_001.sdf</VariableDescriptionSourcePathAndFileName>
+  <ImportOptions>
+    <DisableLookupDetection>false</DisableLookupDetection>
+    <MeasurementArrayOmitThreshold>200000</MeasurementArrayOmitThreshold>
+    <ValueBlockOmitThreshold>200000</ValueBlockOmitThreshold>
+  </ImportOptions>
+</VariableDescriptionMetaData>
