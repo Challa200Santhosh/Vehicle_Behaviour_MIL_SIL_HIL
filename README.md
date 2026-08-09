@@ -68,12 +68,10 @@ The development process follows the classical **V-Model**, connecting high-level
 * **Engine Speed Engine (`REQ-SW-040/041`)**: Computes engine output speed as $5 \times \max\left(\text{GearGain} \times (\text{Acceleration} - 10 \times \text{HandBrake}), 0\right)$.
 * **Turn Indicator Auto-Cancel (`REQ-SW-060/070`)**: Utilizes a 1500-step delay buffer and a custom MATLAB function block to automatically reset indicators when steering returns to center.
 
-#### MIL Output Verification Video
+#### MIL Output Verification Animation
 
-> [!TIP]
-> 🎥 **MIL Simulation Recording**: [**Click to Play `Mil_1_output.mp4`**](M_I_L/MIL_Output/Mil_1_output.mp4)
-
-![MIL Simulation Recording](M_I_L/MIL_Output/Mil_1_output.mp4)
+![MIL Simulation Live Animation](M_I_L/MIL_Output/Mil_1_output.gif)  
+*Figure 2: Live auto-playing animation of MIL closed-loop simulation ([Download HD MP4 Video](M_I_L/MIL_Output/Mil_1_output.mp4)).*
 
 ---
 
@@ -113,19 +111,15 @@ The development process follows the classical **V-Model**, connecting high-level
    - Provides a real-time interactive user interface (dashboards, sliders, switches, gauges, and oscilloscopes).
    - Allows control engineers to inject live signals (e.g., simulated throttle, brake, steering angle) and capture real-time hardware response telemetry.
 
-#### HIL Test Execution Videos
+#### HIL Test Execution Animations
 
-##### Video #1: ControlDesk Instrumentation & Real-Time Monitoring
-> [!TIP]
-> 🎥 **HIL ControlDesk Video**: [**Click to Play `Output1.mp4`**](vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4)
+##### Animation #1: ControlDesk Real-Time Monitoring & Telemetry
+![HIL ControlDesk Instrumentation](vehicel_behaviour_HIL_Dspace/Outputs/Output1.gif)  
+*Figure 3: Live auto-playing animation of dSPACE ControlDesk real-time monitoring ([Download HD MP4 Video](vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4)).*
 
-![HIL ControlDesk Real-Time Monitoring](vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4)
-
-##### Video #2: Hardware Bench Signal Injection & Actuator Response
-> [!TIP]
-> 🎥 **HIL Bench Video**: [**Click to Play `Screen Recording 2026-08-05 183215.mp4`**](vehicel_behaviour_HIL_Dspace/Outputs/Screen%20Recording%202026-08-05%20183215.mp4)
-
-![HIL Bench Signal Injection](vehicel_behaviour_HIL_Dspace/Outputs/Screen%20Recording%202026-08-05%20183215.mp4)
+##### Animation #2: Hardware Bench Signal Injection & Actuator Response
+![HIL Bench Signal Injection](vehicel_behaviour_HIL_Dspace/Outputs/HIL_bench_run.gif)  
+*Figure 4: Live auto-playing animation of physical dSPACE bench signal injection ([Download HD MP4 Video](vehicel_behaviour_HIL_Dspace/Outputs/Screen%20Recording%202026-08-05%20183215.mp4)).*
 
 ---
 
@@ -203,7 +197,7 @@ Vehicle_Behaviour_model_MIL_SIL_HIL/
 │   ├── 📄 Vehicel_Behavior_Modeling1.slx              # MIL Simulink Reference Model
 │   ├── 📄 Vehicel_Behavior_Modeling_sbs.mexw64        # MEX S-Function Binary
 │   ├── 📄 Requiremnts_MBD.xlsx                        # Software Requirements Sheet
-│   └── 📂 MIL_Output/                                 # Video Output (`Mil_1_output.mp4`)
+│   └── 📂 MIL_Output/                                 # Video & GIF Output (`Mil_1_output.gif`, `.mp4`)
 │
 ├── 📂 S_I_L/                                          # Software-in-the-Loop (SIL) Stage
 │   ├── 📄 Vehicel_Behavior_Modeling.slx              # SIL Configuration Model
@@ -216,7 +210,7 @@ Vehicle_Behaviour_model_MIL_SIL_HIL/
     ├── 📂 Configurationdesk/                          # dSPACE ConfigurationDesk Hardware Topology & Task Config (`.htfx`, `.cfgx`)
     ├── 📂 Controldesk/                                # dSPACE ControlDesk Experiments & Dashboards (`.CDP`, `.CDE`)
     ├── 📂 Matlab/                                     # Target-adapted Simulink Models
-    └── 📂 Outputs/                                    # Live HIL Test Video Recordings (`Output1.mp4`, etc.)
+    └── 📂 Outputs/                                    # Live HIL Animations & Videos (`.gif`, `.mp4`)
 ```
 
 ---
