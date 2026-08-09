@@ -42,8 +42,8 @@ In modern automotive software engineering (e.g., ISO 26262 functional safety sta
 
 The development process follows the classical **V-Model**, connecting high-level requirement specifications on the left leg to empirical verification and hardware test execution on the right leg.
 
-![Automotive V-Cycle Model-Based Design](https://www.mdpi.com/electronics/electronics-11-02462/article_deploy/html/images/electronics-11-02462-g003.png)  
-*Figure 1: Model-Based Design (MBD) V-Cycle testing paradigm connecting MIL, SIL, PIL, and HIL stages ([Source: MDPI Electronics](https://www.mdpi.com/2079-9292/11/15/2462)).*
+![Automotive V-Cycle Model-Based Design](v_cycle_diagram.png)  
+*Figure 1: Automotive Model-Based Design (MBD) V-Cycle testing paradigm connecting MIL, SIL, PIL, and HIL stages ([Reference: MDPI Electronics Article 11(15), 2462](https://www.mdpi.com/2079-9292/11/15/2462)).*
 
 ### The 4 Verification Tiers at a Glance:
 1. **MIL (Model-in-the-Loop)**: Test control algorithms against continuous plant models inside the Simulink environment in MATLAB R2023b.
@@ -69,11 +69,11 @@ The development process follows the classical **V-Model**, connecting high-level
 * **Turn Indicator Auto-Cancel (`REQ-SW-060/070`)**: Utilizes a 1500-step delay buffer and a custom MATLAB function block to automatically reset indicators when steering returns to center.
 
 #### MIL Output Verification Video
-Watch the simulation response of the Simulink reference model (`Vehicel_Behavior_Modeling.slx`) during closed-loop execution:
 
-<video src="M_I_L/MIL_Output/Mil_1_output.mp4" controls width="100%"></video>
+> [!TIP]
+> 🎥 **MIL Simulation Recording**: [**Click to Play `Mil_1_output.mp4`**](M_I_L/MIL_Output/Mil_1_output.mp4)
 
-*Direct File Link:* [M_I_L/MIL_Output/Mil_1_output.mp4](M_I_L/MIL_Output/Mil_1_output.mp4)
+![MIL Simulation Recording](M_I_L/MIL_Output/Mil_1_output.mp4)
 
 ---
 
@@ -116,9 +116,17 @@ Watch the simulation response of the Simulink reference model (`Vehicel_Behavior
 #### HIL Test Execution Videos
 
 ##### Video #1: ControlDesk Instrumentation & Real-Time Monitoring
-<video src="vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4" controls width="100%"></video>
+> [!TIP]
+> 🎥 **HIL ControlDesk Video**: [**Click to Play `Output1.mp4`**](vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4)
 
-*Direct File Link:* [vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4](vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4)
+![HIL ControlDesk Real-Time Monitoring](vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4)
+
+##### Video #2: Hardware Bench Signal Injection & Actuator Response
+> [!TIP]
+> 🎥 **HIL Bench Video**: [**Click to Play `Screen Recording 2026-08-05 183215.mp4`**](vehicel_behaviour_HIL_Dspace/Outputs/Screen%20Recording%202026-08-05%20183215.mp4)
+
+![HIL Bench Signal Injection](vehicel_behaviour_HIL_Dspace/Outputs/Screen%20Recording%202026-08-05%20183215.mp4)
+
 ---
 
 ## 🛠️ Control System Functional Specifications
@@ -188,6 +196,7 @@ Vehicle_Behaviour_model_MIL_SIL_HIL/
 ├── 📄 New_Session.mldatx                              # Simulink Test Manager Session
 ├── 🖼️ Coverage_report.png                             # Model Coverage Analysis Report
 ├── 🖼️ Metrics_Dashboard.png                           # Model Metrics & Complexity Dashboard
+├── 🖼️ v_cycle_diagram.png                             # Local V-Cycle Architecture Diagram
 ├── 📄 README.md                                       # Master Repository Documentation
 │
 ├── 📂 M_I_L/                                          # Model-in-the-Loop (MIL) Stage
