@@ -116,11 +116,6 @@ The development process follows the classical **V-Model**, connecting high-level
 ##### Animation #1: ControlDesk Real-Time Monitoring & Telemetry
 ![HIL ControlDesk Instrumentation](vehicel_behaviour_HIL_Dspace/Outputs/Output1.gif)  
 *Figure 3: Live auto-playing animation of dSPACE ControlDesk real-time monitoring ([Download HD MP4 Video](vehicel_behaviour_HIL_Dspace/Outputs/Output1.mp4)).*
-
-##### Animation #2: Hardware Bench Signal Injection & Actuator Response
-![HIL Bench Signal Injection](vehicel_behaviour_HIL_Dspace/Outputs/HIL_bench_run.gif)  
-*Figure 4: Live auto-playing animation of physical dSPACE bench signal injection ([Download HD MP4 Video](vehicel_behaviour_HIL_Dspace/Outputs/Screen%20Recording%202026-08-05%20183215.mp4)).*
-
 ---
 
 ## 🛠️ Control System Functional Specifications
