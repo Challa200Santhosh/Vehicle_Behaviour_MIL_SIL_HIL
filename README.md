@@ -42,7 +42,7 @@ In modern automotive software engineering (e.g., ISO 26262 functional safety sta
 
 The development process follows the classical **V-Model**, connecting high-level requirement specifications on the left leg to empirical verification and hardware test execution on the right leg.
 
-![Automotive V-Cycle Model-Based Design](v_cycle_diagram.png)  
+![Automotive V-Cycle Model-Based Design](https://www.mdpi.com/electronics/electronics-11-02462/article_deploy/html/images/electronics-11-02462-g003.png)  
 *Figure 1: Automotive Model-Based Design (MBD) V-Cycle testing paradigm connecting MIL, SIL, PIL, and HIL stages ([Reference: MDPI Electronics Article 11(15), 2462](https://www.mdpi.com/2079-9292/11/15/2462)).*
 
 ### The 4 Verification Tiers at a Glance:
