@@ -5,8 +5,8 @@
 [![dSPACE Hardware](https://img.shields.io/badge/dSPACE-ConfigurationDesk%20%2F%20ControlDesk-red.svg)](https://www.dspace.com/)
 [![Automotive Standard](https://img.shields.io/badge/Standard-ISO%2026262%20%2F%20V--Model-orange.svg)](https://www.mdpi.com/2079-9292/11/15/2462)
 
-**A Masterclass Repository for Automotive Model-Based Development (MBD)**  
-This repository provides an end-to-end, production-grade implementation of a vehicle behavior controller for a Skateboard Electric Vehicle (EV) platform using **MATLAB R2023b**. It follows the complete **Automotive V-Model Software Engineering Lifecycle**, transitioning seamlessly from control concept to real-time Hardware-in-the-Loop (HIL) deployment using **dSPACE ConfigurationDesk** and **dSPACE ControlDesk**.
+**An end-to-end automotive Model-Based Development (MBD) project.**  
+This repository contains a complete implementation of a vehicle behavior controller for a Skateboard Electric Vehicle (EV) platform using **MATLAB R2023b**. It follows the complete **Automotive V-Model Software Engineering Lifecycle**, moving from control concept to real-time Hardware-in-the-Loop (HIL) deployment using **dSPACE ConfigurationDesk** and **dSPACE ControlDesk**.
 
 ---
 
@@ -14,7 +14,7 @@ This repository provides an end-to-end, production-grade implementation of a veh
 
 - [📌 Executive Overview](#-executive-overview)
 - [🔄 The Automotive V-Model & MBD Integration](#-the-automotive-v-model--mbd-integration)
-- [🧠 Chain-of-Thought Development Flow](#-chain-of-thought-development-flow)
+- [🧠 Development Flow: MIL → SIL → PIL → HIL](#-development-flow-mil--sil--pil--hil)
   - [Step 1: Model-in-the-Loop (MIL)](#step-1-model-in-the-loop-mil)
   - [Step 2: Software-in-the-Loop (SIL)](#step-2-software-in-the-loop-sil)
   - [Step 3: Processor-in-the-Loop (PIL) Roadmap](#step-3-processor-in-the-loop-pil-roadmap)
@@ -34,7 +34,7 @@ In modern automotive software engineering (e.g., ISO 26262 functional safety sta
 ### Target Audience & Use Cases:
 * **Students & Researchers**: A practical hands-on benchmark to understand how software moves from mathematical Simulink equations in MATLAB R2023b to dSPACE hardware racks.
 * **Control Systems & MBD Engineers**: An exemplar codebase demonstrating requirement-to-code traceability, coverage reports, MEX SIL wrapper generation, and dSPACE SCALEXIO ConfigurationDesk/ControlDesk workflows.
-* **Embedded Software Engineers**: Clean auto-generated C code ([`Vehicel_Behavior_Modeling.c`](S_I_L/Vehicel_Behavior_Modeling_ert_rtw/Vehicel_Behavior_Modeling.c)) targeting ARM Cortex architectures.
+* **Embedded Software Engineers**: Auto-generated C code ([`Vehicel_Behavior_Modeling.c`](S_I_L/Vehicel_Behavior_Modeling_ert_rtw/Vehicel_Behavior_Modeling.c)) targeting ARM Cortex architectures.
 
 ---
 
@@ -53,7 +53,7 @@ The development process follows the classical **V-Model**, connecting high-level
 
 ---
 
-## 🧠 Chain-of-Thought Development Flow
+## 🧠 Development Flow: MIL → SIL → PIL → HIL
 
 ---
 
@@ -221,4 +221,11 @@ Vehicle_Behaviour_model_MIL_SIL_HIL/
 
 ## 📄 License
 
-This repository is maintained for educational, research, and technical demonstration purposes under standard academic licensing.
+This repository is shared for educational and research purposes. Please credit the author if you reuse the models or documentation.
+
+---
+
+## 👤 Author
+
+**Challa Santhosh** — Model-Based Design & Embedded AI Engineer  
+[LinkedIn](https://www.linkedin.com/in/challa-santhosh-36693828a/) · [GitHub](https://github.com/Challa200Santhosh) · sschalla10@gmail.com
